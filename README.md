@@ -4,6 +4,8 @@
 
 Website oficial apresentando a plataforma completa: Android App, Backend Python (FastAPI), Backend Node.js e ferramentas de administração.
 
+⚠️ **Este repositório contém APENAS o website público. O código-fonte do projeto Liam é privado.**
+
 ## 🌐 Acessar o Site
 
 **Live:** https://erikalellis.github.io/Liam-Official-Project-Website/
@@ -39,9 +41,10 @@ Website oficial apresentando a plataforma completa: Android App, Backend Python 
 ## 📞 Contato
 
 - **Email:** erikalellis.dev@gmail.com
-- **Repositório Privado:** https://github.com/Erikalellis/Liam-Official-Project
 - **Studio:** https://web.facebook.com/deepdarknesstudios/
 - **Instagram:** @erika_lellis
+
+**Projeto Privado:** O código-fonte completo do Liam é mantido em um repositório privado.
 
 ## 📄 Licença
 
