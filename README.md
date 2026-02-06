@@ -29,6 +29,8 @@ Website oficial apresentando a plataforma completa: Android App, Backend Python 
 - **Animações:** Glow effects, parallax, smooth scroll
 - **Responsivo:** Mobile-first design
 
+> Nota: Este site é uma apresentação pública e contém demonstrações visuais e mockups. Ele não executa backends reais nem faz chamadas a serviços de IA em produção — quaisquer demos exibidas são simuladas e não consomem tokens.
+
 ## 📋 Seções
 
 1. **Hero** - Apresentação principal com CTA
