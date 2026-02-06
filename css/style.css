@@ -107,6 +107,47 @@ body {
   width: 100%;
 }
 
+/* DDS Link com Tooltip */
+.nav-dds {
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-cyan));
+  padding: 6px 12px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.nav-dds::before {
+  content: attr(title);
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-cyan));
+  color: var(--primary-dark);
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+  font-weight: 600;
+}
+
+.nav-dds:hover::before {
+  opacity: 1;
+}
+
+.nav-dds:hover {
+  color: var(--primary-dark);
+  text-shadow: none;
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+}
+
+.nav-dds:hover::after {
+  display: none;
+}
+
 /* ============================================================
    HERO SECTION
    ============================================================ */
