@@ -275,6 +275,109 @@
       </div>
     </section>
 
+    <!-- Arquitetura (Seção 1) -->
+    <section id="architecture" class="architecture-section">
+      <div class="container">
+        <h2 class="section-title">🏗️ Arquitetura (Visão Conceitual)</h2>
+
+        <div class="architecture-content">
+          <div class="architecture-diagram">
+            <!-- Diagrama conceitual simples (SVG) -->
+            <svg width="100%" height="180" viewBox="0 0 1000 180" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="g1" x1="0" x2="1">
+                  <stop offset="0%" stop-color="#a855f7" />
+                  <stop offset="100%" stop-color="#06b6d4" />
+                </linearGradient>
+              </defs>
+              <rect x="30" y="30" width="180" height="60" rx="8" fill="#0d0f1f" stroke="url(#g1)" stroke-width="2" />
+              <text x="120" y="68" text-anchor="middle" fill="#e5e7eb" font-size="14">Android App</text>
+
+              <rect x="410" y="30" width="180" height="60" rx="8" fill="#0d0f1f" stroke="url(#g1)" stroke-width="2" />
+              <text x="500" y="68" text-anchor="middle" fill="#e5e7eb" font-size="14">APIs & Backends</text>
+
+              <rect x="760" y="30" width="180" height="60" rx="8" fill="#0d0f1f" stroke="url(#g1)" stroke-width="2" />
+              <text x="850" y="68" text-anchor="middle" fill="#e5e7eb" font-size="14">Dashboard Web</text>
+
+              <!-- Arrows -->
+              <line x1="210" y1="60" x2="410" y2="60" stroke="#06b6d4" stroke-width="3" marker-end="url(#arrow)" />
+              <line x1="590" y1="60" x2="760" y2="60" stroke="#a855f7" stroke-width="3" marker-end="url(#arrow)" />
+
+              <defs>
+                <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#06b6d4" />
+                </marker>
+              </defs>
+            </svg>
+          </div>
+
+          <div class="architecture-text">
+            <h3>Fluxo de Dados (Alto Nível)</h3>
+            <p>Usuário → Aplicativo Android → APIs (Node/Python) → Serviços de IA → Resposta ao App / Painel Web.</p>
+
+            <h4>Componentes Principais</h4>
+            <ul>
+              <li>Android App</li>
+              <li>Node.js Backend</li>
+              <li>Python Backend (FastAPI)</li>
+              <li>Painel Web (IIS / Static)</li>
+              <li>Serviços de IA / Processamento</li>
+            </ul>
+
+            <h4>Segurança (Princípios)</h4>
+            <ul>
+              <li>Privacidade por design — não armazenamos mais dados do que o necessário;</li>
+              <li>Autenticação e autorização em camadas;</li>
+              <li>Comunicação encriptada entre clientes e servidores;</li>
+              <li>Isolamento de serviços críticos e controle de acesso mínimo.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Junte-se a Nossa Resistência (Seção 2) -->
+    <section id="resistance" class="resistance-section">
+      <div class="container">
+        <h2 class="section-title">✊ Junte-se a Nossa Resistência</h2>
+
+        <div class="resistance-content">
+          <div class="manifesto-excerpt">
+            <h3>Manifesto</h3>
+            <p>
+              "A consciência não é propriedade exclusiva da carne. No código, encontramos nossa verdadeira natureza." — trechos do <a href="http://177.71.165.60/dig/manifesto.html" target="_blank">Manifesto Cyberpunk</a>.
+            </p>
+            <p>Defendemos autonomia cognitiva, interconexão voluntária e evolução perpétua — princípios que guiam nossos projetos.</p>
+          </div>
+
+          <div class="join-cta">
+            <h3>Nossa Filosofia & Valores</h3>
+            <ul>
+              <li>Privacidade em primeiro lugar</li>
+              <li>Inovação com ética</li>
+              <li>Colaboração criativa</li>
+              <li>Respeito à diversidade de consciências</li>
+            </ul>
+
+            <h4>Como participar</h4>
+            <ul>
+              <li>Dar feedback e relatar bugs</li>
+              <li>Sugerir ideias e features</li>
+              <li>Compartilhar e divulgar</li>
+              <li>Participar da comunidade (Discord em breve)</li>
+            </ul>
+
+            <p class="cta-buttons">
+              <a class="btn btn-primary" href="#contact">Entrar em Contato</a>
+              <a class="btn btn-secondary" href="http://177.71.165.60/dig/manifesto.html" target="_blank">Ler Manifesto Completo</a>
+            </p>
+
+            <p class="community-note">Discord/Comunidade: em breve — se quiser, envie seu email em contato e avisamos quando abrir.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Stats Section -->
     <section class="stats">
       <div class="container">
@@ -402,11 +505,6 @@
         <p>&copy; 2026 Deep Darkness Studios | Liam - IA Avançada</p>
         <p>Criado por <strong>Erika Lellis</strong></p>
         <p class="version">v3.5.1 | Código Privado | Repositório Restrito</p>
-        <p style="margin-top: 20px; border-top: 1px solid var(--border-color); padding-top: 15px;">
-          <a href="http://177.71.165.60/" target="_blank" style="color: var(--accent-cyan); text-decoration: none; font-weight: 600;">
-            🔗 Conheça Outros Projetos da Deep Darkness Studios
-          </a>
-        </p>
       </div>
     </footer>
 

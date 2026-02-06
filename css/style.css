@@ -798,6 +798,81 @@ body {
     0 0 10px rgba(6, 182, 212, 0.2);
 }
 
+/* Arquitetura & Resistência */
+.architecture-section,
+.resistance-section {
+  padding: 56px 0;
+  background: linear-gradient(
+    180deg,
+    rgba(9, 10, 17, 0.6),
+    rgba(9, 10, 17, 0.4)
+  );
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+}
+.architecture-section .architecture-content,
+.resistance-section .resistance-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+.architecture-diagram {
+  background: linear-gradient(
+    135deg,
+    rgba(10, 10, 20, 0.6),
+    rgba(4, 6, 12, 0.6)
+  );
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 30px rgba(6, 5, 23, 0.6);
+}
+.architecture-text h3,
+.architecture-text h4,
+.manifesto-excerpt h3,
+.join-cta h3 {
+  color: #e6eef8;
+  margin-bottom: 8px;
+}
+.architecture-text p,
+.architecture-text ul,
+.manifesto-excerpt p,
+.join-cta p,
+.join-cta ul {
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+.cta-buttons {
+  margin-top: 12px;
+}
+.btn-primary {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 8px;
+}
+.btn-secondary {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 8px;
+}
+.community-note {
+  margin-top: 10px;
+  color: #9fb0c8;
+  font-size: 14px;
+}
+
+@media (max-width: 880px) {
+  .architecture-section .architecture-content,
+  .resistance-section .resistance-content {
+    grid-template-columns: 1fr;
+  }
+}
+
 .contact-form textarea {
   resize: vertical;
 }
