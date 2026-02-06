@@ -37,6 +37,8 @@ Website oficial apresentando a plataforma completa: Android App, Backend Python 
 4. **Tech Stack** - Tecnologias utilizadas
 5. **Stats** - Números do projeto
 6. **Contact** - Formulário + Links de contato
+7. **Arquitetura** - Visão conceitual de alto nível (fluxo de dados, componentes e princípios de segurança)
+8. **Junte-se a Nossa Resistência** - Manifesto, valores e chamadas à participação (links para manifesto completo)
 
 ## 📞 Contato
 
