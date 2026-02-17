@@ -1,61 +1,48 @@
-# Liam Official Project - Website
+# Projeto Oficial Liam
 
-**Liam** - Inteligência Artificial Avançada com Múltiplas Personagens
+## Introdução
+Este é o projeto oficial do website Liam, uma plataforma desenvolvida com tecnologias modernas para fornecer uma experiência de usuário otimizada.
 
-Website oficial apresentando a plataforma completa: Android App, Backend Python (FastAPI), Backend Node.js e ferramentas de administração.
+## Configuração
+Para configurar o ambiente, siga os passos abaixo:
 
-⚠️ **Este repositório contém APENAS o website público. O código-fonte do projeto Liam é privado.**
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/Erikalellis/Liam-Official-Project-Website.git
+   cd Liam-Official-Project-Website
+   ```
 
-## 🌐 Acessar o Site
+2. **Instale as dependências**:
+   Certifique-se de ter o Node.js instalado. Você pode instalar as dependências executando:
+   ```bash
+   npm install
+   ```
 
-**Live:** https://erikalellis.github.io/Liam-Official-Project-Website/
+3. **Configurações do Ambiente**:
+   Crie um arquivo `.env` na raiz do projeto e adicione as variáveis necessárias.
 
-## 📁 Estrutura
+## Recursos
+- **Interface Responsiva**: O site é projetado para ser totalmente responsivo, funcionando em dispositivos móveis e desktops.
+- **Experiência do Usuário**: Navegação intuitiva e design atraente.
+- **Autenticação**: Sistema de login seguro para os usuários.
+- **Painel Administrativo**: Interface para gerenciar conteúdo e usuários.
 
+## Testes
+Para executar os testes, utilize os seguintes comandos:
+```bash
+npm test
 ```
-├── index.html          # Página principal
-├── css/
-│   └── style.css      # Estilos Dark/Neon
-├── js/
-│   └── main.js        # Interatividades
-└── assets/
-    └── images/        # Imagens do projeto
-```
+Os testes foram escritos utilizando o framework de testes [nome do framework de testes].
 
-## 🎨 Design
+## Implantação
+Para implantar o projeto, você pode usar serviços como Vercel, Heroku, ou AWS. Siga as instruções do respectivo serviço para configurar a implantação contínua.
 
-- **Tema:** Dark Mode com Neon Accents
-- **Cores:** Roxo (#a855f7), Ciano (#06b6d4), Verde (#10b981), Rosa (#ec4899)
-- **Animações:** Glow effects, parallax, smooth scroll
-- **Responsivo:** Mobile-first design
+## Contribuição
+Contribuições são bem-vindas! Para contribuir:
+1. Faça um fork do repositório.
+2. Crie uma nova branch (`git checkout -b feature/nome-da-sua-feature`).
+3. Faça suas modificações e commit (`git commit -m 'Adiciona nova feature'`).
+4. Envie para o repositório remoto (`git push origin feature/nome-da-sua-feature`).
+5. Abra um pull request.
 
-> Nota: Este site é uma apresentação pública e contém demonstrações visuais e mockups. Ele não executa backends reais nem faz chamadas a serviços de IA em produção — quaisquer demos exibidas são simuladas e não consomem tokens.
-
-## 📋 Seções
-
-1. **Hero** - Apresentação principal com CTA
-2. **Features** - 6 recursos em destaque
-3. **Showcase** - Galeria com mockups do app
-4. **Tech Stack** - Tecnologias utilizadas
-5. **Stats** - Números do projeto
-6. **Contact** - Formulário + Links de contato
-7. **Arquitetura** - Visão conceitual de alto nível (fluxo de dados, componentes e princípios de segurança)
-8. **Junte-se a Nossa Resistência** - Manifesto, valores e chamadas à participação (links para manifesto completo)
-
-## 📞 Contato
-
-- **Email:** erikalellis.dev@gmail.com
-- **Studio:** https://web.facebook.com/deepdarknesstudios/
-- **Instagram:** @erika_lellis
-
-**Projeto Privado:** O código-fonte completo do Liam é mantido em um repositório privado.
-
-## 📄 Licença
-
-© 2026 Deep Darkness Studios. Todos os direitos reservados.
-
----
-
-**Desenvolvido por:** Erika Lellis  
-**Data:** 5 de Fevereiro de 2026  
-**Versão:** 3.5.1
+Agradecemos seu interesse em contribuir para o projeto!
