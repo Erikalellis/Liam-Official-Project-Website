@@ -1,0 +1,1 @@
+{\n  "scripts": {\n    "build": "webpack --mode production",\n    "minify": "uglifyjs src/index.js -o dist/index.min.js",\n    "test": "jest"\n  }\n}
